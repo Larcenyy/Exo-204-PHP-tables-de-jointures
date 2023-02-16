@@ -1,5 +1,8 @@
 <?php
 
+require "DbPDO.php";
+DbPDO::connect();
+DbPDO::showStudent();
 /*
  * 1 - Uniquement pour la pratique, reproduisez via mysql workbench le schémas proposé.
  * 2 - Exportez le résultat de manière à créer les tables en base de données.
